@@ -1,0 +1,20 @@
+<div class="ml90 ht1000 bg-white pb20" ng-controller="webcon">
+    <div class="mb0 p0 ml0">
+        <div class="ht90 l-ht90 pl60 ml0 border-b-1 border-black">
+            <span class="display-ib font18 font-b font-yafei">信息公告</span>
+            <span class="font14 display-ib ml10 font-b font-yafei">Notice</span>
+        </div>
+        <div class="pl60 pr60 mt20">
+            <div class="border pl100 pr100 min-ht500 pt20">
+                <p class="font16 tc">{{newsList[i].title}}</p>
+
+                <p class="p-indent pl40 pr40 l-ht30">
+                    {{newsList[i].text}}
+                </p>
+                <p class="tr pr40">发布人：<span class="font-blue">{{newsList[i].publish}}</span></p>
+                <p class="tr pr40"><span>发布时间：{{newsList[i].time}}</span></p>
+            </div>
+
+        </div>
+    </div>
+</div>

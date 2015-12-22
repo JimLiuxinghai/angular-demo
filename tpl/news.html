@@ -1,0 +1,17 @@
+<div class="ml90 pb20" ng-controller="webcon">
+    <div class="mb0 p0 ml0  min-ht1000 bg-white">
+        <div class="ht90 l-ht90 pl60 ml0 border-b-1 border-black">
+            <span class="display-ib font18 font-b font-yafei">信息公告</span>
+            <span class="font14 display-ib ml10 font-b font-yafei">Notice</span>
+        </div>
+        <div class="pl60 pr60">
+            <ul class="list-unstyled border mt20 pb20 pl40 pr40 min-ht500">
+                <li class="mt20" ng-repeat="r in newsList">
+                    <a href="content.html#/news_info/{{$index}}"><i class="vicons mr10">&#xe6a7;</i>{{r.title}}</a>
+                    <span class="fr">{{r.time}}</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>

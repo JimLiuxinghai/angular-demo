@@ -1,0 +1,17 @@
+<div class="ml90 min-ht1000 bg-white pb20" ng-controller="team">
+    <div class="mb0 p0 ml0">
+        <div class="ht90 l-ht90 pl60 ml0 border-b-1 border-black ">
+            <span class="display-ib font18 font-b font-yafei">团队风采</span>
+            <span class="font14 display-ib ml10 font-b font-yafei">Notice</span>
+        </div>
+        <div class="pl60 pr60">
+            <div class="border mt20 pt20 pb20" ng-repeat="t in teamList">
+                <p class="pl20 font16 mb0">{{t.team_intro}}</p>
+                <div class="w10 display-ib ht250 ml20 mt20" ng-repeat="src in t.team_pic">
+                    <img src="{{src}}" class="per100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

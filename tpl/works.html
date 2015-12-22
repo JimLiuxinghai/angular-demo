@@ -1,0 +1,20 @@
+<div class="ml90 min-ht1000 bg-white pb20" ng-controller="works">
+    <div class="mb0 p0 ml0">
+        <div class="l-ht90 pl60 ml0 ht90 border-b-1 border-black">
+            <span class="display-ib font18 font-b font-yafei">团队作品</span>
+            <span class="font14 display-ib ml10 font-b font-yafei">Works</span>
+        </div>
+        <div class="pl60 pr60">
+            <div class="display-ib w10 ml30 mt20 ht290 border pos-r overflow-h cursor-p works" ng-repeat="w in workList">
+                <div class="pos-a per100 ht250">
+                    <img src="{{w.works_pic}}" class="per100 ht250">
+                    <p class="tc font14 mt10"><span>作者：</span><span ng-repeat="n in w.user_name" class="ml10">{{n}}</span></p>
+                </div>
+                <div class="pos-a top292 bg-rgba6 per100 ht290 workIntro tc display-t">
+                    <p class="font-white display-tc">{{w.works_intro}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

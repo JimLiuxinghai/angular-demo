@@ -1,0 +1,11 @@
+
+	[
+		{
+            "team_intro":"黄河游览区一日游",
+			"team_pic":["images/team1.jpg","images/team2.jpg","images/team3.jpg"]
+		},
+        {
+            "team_intro":"实验室的日常",
+            "team_pic":["images/team4.jpg","images/team2.jpg","images/team5.jpg"]
+        }
+	]

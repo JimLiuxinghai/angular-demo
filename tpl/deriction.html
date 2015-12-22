@@ -1,0 +1,21 @@
+<div class="ml90" ng-controller="deriction">
+    <div class="mb0 p0 ml0 min-ht1000 bg-white">
+        <div class="ht90 l-ht90 pl60 ml0 border-b-1 border-black">
+            <span class="display-ib font18 font-b font-yafei">学习方向</span>
+            <span class="font14 display-ib ml10 font-b font-yafei">Direction</span>
+        </div>
+        <div class="pl60 pr60">
+            <div class="min-ht1000 pb20">
+                <div class="pos-r col10 ht300 wrap ml40 mt20" ng-repeat="d in dList">
+                    <div class="pos-a border-9 border ht300 per100 cursor-p tc l-ht300 font18 box-in positive">{{d.study_name}}</div>
+                    <div class="offside pos-a ht300 bg-green-1a box-content pl40 pr40 cursor-p box-out">
+                        <p class="tc font18 mt20 font-white">{{d.study_name}}</p>
+                        <p class="p-indent font16 l-ht20 mt30 font-white">{{d.study_intro}}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
